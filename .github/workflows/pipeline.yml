@@ -50,4 +50,4 @@ jobs:
         with:
           context: ./Chapter15
           push: true
-          tags: ${{ env.ACRNAME }}.azureacr.io/website:${{ github.run-number}}
+          tags: ${{ env.ACRNAME }}.azureacr.io/website:${{ github.run_number }}
