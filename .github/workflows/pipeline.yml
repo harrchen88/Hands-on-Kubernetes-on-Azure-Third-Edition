@@ -9,7 +9,7 @@ on:
     branches: [ main ]
     paths:
     - Chapter15/*
-    - .github/workflows/pipeline.yaml
+    - .github/workflows/pipeline.yml
     
   pull_request:
     branches: [ main ]
@@ -19,7 +19,7 @@ on:
 
 # env for reusable variables
 env:
-   ACRNAME: harrchenhandsonRegistry
+   ACRNAME: harrchenhandsonacr
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
