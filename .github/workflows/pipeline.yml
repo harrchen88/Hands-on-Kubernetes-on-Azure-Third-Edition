@@ -74,7 +74,7 @@ jobs:
         run: |
           helm upgrade website Chapter15/Website --install \
           --set image.repository=$ACRNAME.azurecr.io/website \
-          --set image.tab=${{github.run_number}}
+          --set image.tag=${{github.run_number}}
         
       - name: Get service IP
         run: |
